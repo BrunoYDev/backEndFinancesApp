@@ -1,13 +1,15 @@
-# Backend finanças App
+# Personal Finances Backend
 
-1) Primeiro clone o repositório
-2) Baixe as dependencias, abra o cmd até a pasta onde está o projeto e rode: ```yarn``` ou ```npm install```
-3) Sincronize o banco abrindo seu cmd dentro da pasta do projeto e rodando:
+1) First Clone the repo
+2) Download the dependences, Open the folder where project is located and run: ```yarn``` or ```npm install```
+3) Synchronize the database running this command:
 ```cmd
 npx prisma migrate dev
 ```
-- Após rodar o passo prisma migrate dev você pode olhar dentro da pasta prisma ele deve ter gerado um arquovo com nome `dev.db`
+- After running prisma migrate dev you could look into the folder prisma to see if `dev.db` file is there.
 
-4) Agora pode rodar o projeto com ```yarn dev``` ou ```npm run dev```
+4) Now you can run the project using ```yarn dev``` or ```npm run dev```
 
-* Sempre a api vai tentar rodar na porta ```3333```, exemplo: ```http://localhost:3333/login```
+* The API runs on port ```3333```, example: ```http://localhost:3333/login```
+
+### THIS BACKEND WAS NOT MADE BY ME, it's made for study porpourses, it's made by other people i'm creating this repo for this project because my project depends on this to work.
