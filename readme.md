@@ -1,5 +1,7 @@
 # Personal Finances Backend
 
+Personal Finances App: https://github.com/BrunoYDev/personalFinancesApp
+
 1) First Clone the repo
 2) Download the dependences, Open the folder where project is located and run: ```yarn``` or ```npm install```
 3) Synchronize the database running this command:
